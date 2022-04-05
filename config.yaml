@@ -3,41 +3,42 @@ languageCode: en-us
 theme: aafu
 params:
   aboutme:
-    description: This is a demo of the `aafu` theme. It has `light`, `dark`, `ocean`,
-      and `pinkish` themes.
+    description: Experienced radiation scientist with a demonstrated history of working in the regulatory environment. Skilled in radiation safety,analytical skills, LaTex, R programming and Microsoft Package. Strong administrative administrative professional with a Master of Science - MSc focused in Nuclear Medicine from Stellenbosch University.
     icon: fas fa-user
     title: About Me
   author: Darshan Baral
-  copyright: short copyright message
+  copyright: Rorireo copyright
   description: Website title
   education:
     icon: fas fa-graduation-cap
     list:
-      - college: University of State-City
-        dates: 2013 - 2018
-        degree: Ph.D. in Subject
+      - college: Stellenbosch University
+        dates: 2017 - 2020
+        degree: Master of Science - MS, Nuclear Medicine
+        thesis_title: 'Influence of acquisition time and smoothing parameters on Ga-68 wholebody PET/CT image quality.'
+        thesis_url: 'http://hdl.handle.net/10019.1/109341'
+      - college: University of Limpopo - Medunsa Campus
+        dates: 2011 - 2012
+        degree: B.Sc. Honours, Medical Physics
         thesis_title: 'Effect of humans on other humans: a study of human behavior.'
         thesis_url: '#'
-      - college: University of State-City
-        dates: 2013 - 2018
-        degree: M.S. in Subject
-        thesis_title: 'Effect of humans on other humans: a study of human behavior.'
-        thesis_url: '#'
-      - college: University of State-City
+      - college: University of the Western Cape
+        dates: 2008 -2008
+        degree: B.Sc. Honours, Physical Science -Material Science
+      - college: North West University
         dates: 2004 - 2009
         degree: B.S. in Subject
     title: Education
   experience:
     icon: fas fa-briefcase
     list:
-      - company: Company Name
-        dates: 2019 - *Present*
-        details: Printed from desktop. Sent [emails](#). Called people using telephone.
-          Drank water from office cooler. Ate donuts on people's birthdays.
-        position: Job Title
-      - company: Company Name
-        dates: 2018 - 2019
-        position: Job Title
+      - company: South African Health Products Regulatory Authority
+        dates: 01 July 2021 - *Present*
+        details: Regulate substances related to Group IV Hazardous substances
+        position: Reviewer-Radionuclides
+      - company: National Department of Health
+        dates: June 2013 - June 2021
+        position: Senior Admnistrative Officer
         url: '#'
     title: Experiences
   favicons:
@@ -56,10 +57,10 @@ params:
       - hobby: Baking
     title: Hobbies
   profile:
-    location: City Name, ST
-    name: First Last, Abbr.
+    location: Pretoria, Arcadia, South Africa
+    name: Boitshoko Phenyo Diale
     photo: profile.jpg
-    tagline: Title
+    tagline: 
   project:
     icon: fas fa-project-diagram
     list:
@@ -134,8 +135,7 @@ params:
       - icon: fab fa-linkedin-in
         title: LinkedIn
         url: '#'
-      - icon: fab fa-stack-overflow
-        title: StackOverflow
+      
         url: '#'
       - icon: fab fa-github
         title: GitHub
@@ -143,15 +143,7 @@ params:
       - icon: fab fa-twitter
         title: Twitter
         url: '#'
-      - icon: fab fa-orcid
-        title: Orcid
-        url: '#'
-      - icon: ai ai-google-scholar
-        title: Google Scholar
-        url: '#'
-      - icon: fab fa-researchgate
-        title: ResearchGate
-        url: '#'
+      
     title: Links
   theme:
     mainTheme: ocean
